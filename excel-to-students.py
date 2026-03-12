@@ -217,7 +217,7 @@ def save_students_to_json(students, json_file='students.json'):
 if __name__ == "__main__":
     try:
         # Excel 파일에서 학생 데이터 추출
-        excel_file = "MS Data School 3기 Teams 계정.xlsx"
+        excel_file = "MS Data School 4기 Teams 계정.xlsx"
         students = extract_students_with_duplicates(excel_file)
         
         if students:
